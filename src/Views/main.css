@@ -1,0 +1,6 @@
+body{
+    background-image: url('../../public/images/index/castello.jpg');
+    background-position: 45% 25%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}

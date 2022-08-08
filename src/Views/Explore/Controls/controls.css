@@ -1,0 +1,102 @@
+/*Map tiles are z-index 800*/
+.map-zoom-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 0%;
+    margin-right: 10px;
+    margin-top: 10px;
+	z-index: 801;
+}
+
+.rounded-button{
+    aspect-ratio: 1;
+    height: 56px;
+    width: 56px;
+    border-radius: 15px;
+    border: 5px solid #ffffff33;
+    display: grid;
+}
+
+.rounded-button:active{
+    background-color: #000;
+}
+
+.rounded-button>svg{
+    color: white;
+    aspect-ratio: 1;
+    height: 32px;
+    width: 32px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.map-zoom-button{
+    background-color: #0066CC;
+}
+
+.map-filter-button{
+    background-color: #DD7429;
+}
+
+.leaflet-marker-icon{
+    filter: drop-shadow(0px 0px 2px #000)
+            drop-shadow(0px 0px 2px #000);
+    margin: 0px;
+    border-radius: 12.5px;
+}
+
+.map-marker-icon:focus{
+    filter: drop-shadow(0px 0px 2px #0066CC);
+    background-color: #0066CC;
+    border-radius: 12.5px;
+}
+
+.menu-header{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    justify-items: center;
+    align-items: center;
+}
+
+.menu-header>h4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18pt;
+    margin: 2mm;
+}
+
+.menu-close>svg{
+    color: white;
+}
+
+.menu-close{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    max-width: 60%;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    margin: 20%;
+    margin-top: 25%;
+    border: 0px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dialog-close{
+    max-height: 0px;
+    bottom: 0%;
+    overflow: hidden;
+}
+
+.dialog-open{
+    max-height: 600px;
+    bottom: 0%;
+}

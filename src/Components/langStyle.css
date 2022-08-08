@@ -1,0 +1,5 @@
+.language-bar{
+    font-size: calc(50vw*0.23);
+    user-select: none;
+    cursor: pointer;
+}

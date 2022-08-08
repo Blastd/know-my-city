@@ -1,0 +1,62 @@
+.header-nav{
+    border-radius:      20px;
+    margin:             10px;
+    padding:            9px 12px;
+    background-color: #D9D9D980;
+    backdrop-filter:    blur(5px);
+    transition:         max-height  0.15s ease-in;
+}
+
+.header-nav-container{
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-heading{
+    font-family: 'Pacifico', cursive;
+    font-size: calc(50vw * 0.23);
+    margin: 0px;
+    user-select: none;
+}
+
+.header-menu{
+    padding: 5px;
+    margin-left: auto;
+}
+
+.header-menu-symbol{
+    width: calc(50vw * 0.25);
+    height: calc(50vw * 0.25);
+}
+
+.nav-opened{
+    max-height: 50vh;
+    margin: 30px 0px 0px 0px;
+}
+
+.nav-closed{
+    max-height: 0px;
+    opacity: 0;
+    margin: 0px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    padding: 0px;
+    transition: 0.15s ease-in;
+}
+
+.nav-bar>a{
+    font-family: 'Poppins';
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: calc(50vw * 0.23);
+    margin: 0px;
+    padding: 0px;
+}

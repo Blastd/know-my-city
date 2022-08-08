@@ -1,0 +1,1493 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-07-31T17:33:59Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/407388915",
+        "amenity": "bar",
+        "amenity_1": "restaurant",
+        "building": "yes",
+        "operator": "Lido Mennea"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.2598026,
+              41.3287655
+            ],
+            [
+              16.2597663,
+              41.328782
+            ],
+            [
+              16.2593029,
+              41.3289927
+            ],
+            [
+              16.2592243,
+              41.3288976
+            ],
+            [
+              16.259731,
+              41.3286745
+            ],
+            [
+              16.2598026,
+              41.3287655
+            ]
+          ]
+        ]
+      },
+      "id": "way/407388915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/407431356",
+        "amenity": "ice_cream",
+        "building": "yes",
+        "check_date": "2022-07-29",
+        "internet_access": "no",
+        "name": "Bar Nicolino",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.2791611,
+              41.317297
+            ],
+            [
+              16.2790854,
+              41.3173888
+            ],
+            [
+              16.2790185,
+              41.317359
+            ],
+            [
+              16.2790955,
+              41.3172662
+            ],
+            [
+              16.2791611,
+              41.317297
+            ]
+          ]
+        ]
+      },
+      "id": "way/407431356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/407434278",
+        "amenity": "bar",
+        "brewery": "no",
+        "building": "yes",
+        "drink:coffee": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.2950014,
+              41.31701
+            ],
+            [
+              16.2949231,
+              41.3170316
+            ],
+            [
+              16.2949025,
+              41.3170613
+            ],
+            [
+              16.2947808,
+              41.3170167
+            ],
+            [
+              16.2948253,
+              41.316946
+            ],
+            [
+              16.2949086,
+              41.3169817
+            ],
+            [
+              16.2949286,
+              41.3169789
+            ],
+            [
+              16.2949143,
+              41.3169487
+            ],
+            [
+              16.2949656,
+              41.3169359
+            ],
+            [
+              16.2950014,
+              41.31701
+            ]
+          ]
+        ]
+      },
+      "id": "way/407434278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080060905",
+        "addr:city": "Barletta",
+        "addr:street": "Via Amerigo Vespuci",
+        "amenity": "cafe",
+        "check_date": "2022-07-10",
+        "name": "Colibri'",
+        "operator": "Rizzitiello Giuseppe",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.2899851,
+              41.319452
+            ],
+            [
+              16.2900445,
+              41.3194069
+            ],
+            [
+              16.2901058,
+              41.3194512
+            ],
+            [
+              16.2900455,
+              41.3194948
+            ],
+            [
+              16.2899851,
+              41.319452
+            ]
+          ]
+        ]
+      },
+      "id": "way/1080060905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615632951",
+        "amenity": "cafe",
+        "name": "Golden Caffè"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2738769,
+          41.3195655
+        ]
+      },
+      "id": "node/615632951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615632958",
+        "amenity": "cafe",
+        "name": "Caffè Letterario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2826829,
+          41.3183445
+        ]
+      },
+      "id": "node/615632958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615632979",
+        "amenity": "cafe",
+        "name": "Quo Vadis",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2836939,
+          41.3210335
+        ]
+      },
+      "id": "node/615632979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615632982",
+        "amenity": "bar",
+        "name": "Caffe Fanfulla",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2837548,
+          41.3211588
+        ]
+      },
+      "id": "node/615632982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615632998",
+        "addr:housenumber": "22",
+        "addr:street": "Piazzetta del Duomo",
+        "amenity": "cafe",
+        "check_date": "2022-07-29",
+        "name": "Shot",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2868666,
+          41.3198209
+        ]
+      },
+      "id": "node/615632998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615633002",
+        "addr:housenumber": "43",
+        "addr:street": "Via del Duomo",
+        "amenity": "cafe",
+        "check_date": "2022-07-12",
+        "internet_access": "no",
+        "name": "Caffè Con Vista",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2865798,
+          41.3207647
+        ]
+      },
+      "id": "node/615633002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626149026",
+        "amenity": "cafe",
+        "name": "Gran Caffè Erika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2704869,
+          41.3085284
+        ]
+      },
+      "id": "node/626149026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626149027",
+        "amenity": "cafe",
+        "name": "Angel Caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2707472,
+          41.3082127
+        ]
+      },
+      "id": "node/626149027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626149036",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2711736,
+          41.3085007
+        ]
+      },
+      "id": "node/626149036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626149042",
+        "amenity": "cafe",
+        "name": "Bar Atlanta 96"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2677513,
+          41.3101011
+        ]
+      },
+      "id": "node/626149042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626149057",
+        "amenity": "cafe",
+        "name": "Bar Italia 90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2670258,
+          41.3107213
+        ]
+      },
+      "id": "node/626149057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626149080",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2755848,
+          41.3116096
+        ]
+      },
+      "id": "node/626149080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/630736128",
+        "amenity": "cafe",
+        "name": "I Giardini"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2725968,
+          41.3104128
+        ]
+      },
+      "id": "node/630736128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/632554407",
+        "amenity": "cafe",
+        "name": "Bar l'Incontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2605248,
+          41.3119257
+        ]
+      },
+      "id": "node/632554407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/632554409",
+        "amenity": "cafe",
+        "name": "Bar da Boe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2673932,
+          41.3086359
+        ]
+      },
+      "id": "node/632554409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/633021860",
+        "amenity": "cafe",
+        "name": "Caffe Insomnia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2689025,
+          41.3070803
+        ]
+      },
+      "id": "node/633021860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/633021900",
+        "amenity": "cafe",
+        "name": "Caffetteria Elisir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2662416,
+          41.3107325
+        ]
+      },
+      "id": "node/633021900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/633021925",
+        "amenity": "cafe",
+        "name": "Bar con Ghiaccio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2655941,
+          41.3123884
+        ]
+      },
+      "id": "node/633021925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/633021927",
+        "amenity": "cafe",
+        "name": "Gran Caffè Al Mulinello"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2661008,
+          41.31255
+        ]
+      },
+      "id": "node/633021927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/633021930",
+        "amenity": "cafe",
+        "name": "Caffetteria Rionero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2681848,
+          41.311346
+        ]
+      },
+      "id": "node/633021930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/944702470",
+        "amenity": "cafe",
+        "name": "Bar Jabena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2643254,
+          41.3076003
+        ]
+      },
+      "id": "node/944702470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1507496984",
+        "amenity": "cafe",
+        "cuisine": "italian",
+        "name": "Sud Biliardi Revival"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.262063,
+          41.3067037
+        ]
+      },
+      "id": "node/1507496984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1807987423",
+        "amenity": "bar",
+        "name": "Caffetteria Venezia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2731689,
+          41.3061271
+        ]
+      },
+      "id": "node/1807987423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4799180047",
+        "name": "Bar San Giorgio",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.271248,
+          41.3109143
+        ]
+      },
+      "id": "node/4799180047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4921314721",
+        "addr:housenumber": "55",
+        "addr:street": "Piazza Castello",
+        "amenity": "cafe",
+        "check_date": "2022-07-20",
+        "name": "Groove Bar",
+        "name:de": "Groove Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.286642,
+          41.3211163
+        ]
+      },
+      "id": "node/4921314721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5520424768",
+        "amenity": "bar",
+        "name": "Levante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2943294,
+          41.3217123
+        ]
+      },
+      "id": "node/5520424768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5520433078",
+        "amenity": "bar",
+        "name": "Beach Bar Coffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2937423,
+          41.3217506
+        ]
+      },
+      "id": "node/5520433078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5785022300",
+        "addr:housenumber": "188",
+        "addr:street": "Via Dante Alighieri",
+        "amenity": "bar",
+        "name": "Bar Pasticceria Helen",
+        "phone": "+39 0883 349723",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2844768,
+          41.3056142
+        ]
+      },
+      "id": "node/5785022300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5942043117",
+        "addr:housenumber": "62",
+        "addr:street": "Via Nazareth",
+        "check_date": "2022-07-22",
+        "internet_access": "no",
+        "name": "La Bottega del Babà",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "pastry",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2826066,
+          41.3204373
+        ]
+      },
+      "id": "node/5942043117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6249617951",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "yes",
+        "check_date": "2022-07-20",
+        "indoor_seating": "yes",
+        "name": "Cafè Modà",
+        "opening_hours": "Mo-Sa 08:00-13:00,16:00-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2820136,
+          41.3194929
+        ]
+      },
+      "id": "node/6249617951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8349646389",
+        "addr:street": "Via Mariano Abignenti",
+        "amenity": "cafe",
+        "cuisine": "italian",
+        "name": "Nemesi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2861751,
+          41.3212231
+        ]
+      },
+      "id": "node/8349646389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9189911307",
+        "addr:city": "Barletta",
+        "addr:housenumber": "108",
+        "addr:postcode": "76121",
+        "addr:street": "Via Cavour",
+        "amenity": "cafe",
+        "check_date": "2022-07-12",
+        "cuisine": "coffee;breakfast;brunch",
+        "name": "Bar Castello",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+39 0883 531704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2879771,
+          41.3188383
+        ]
+      },
+      "id": "node/9189911307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9189948958",
+        "addr:city": "Barletta",
+        "addr:housenumber": "98",
+        "addr:postcode": "76121",
+        "addr:street": "Via Cavour",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "breakfast;coffee",
+        "name": "Le Muse",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+39 0883 888634",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2878129,
+          41.3188708
+        ]
+      },
+      "id": "node/9189948958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9190022341",
+        "addr:city": "Barletta",
+        "addr:housenumber": "151",
+        "addr:postcode": "76121",
+        "addr:street": "Via Ferdinando d'Aragona",
+        "addr:unit": "c/d",
+        "amenity": "cafe",
+        "cuisine": "danish;breakfast;beer",
+        "name": "Hygge Danish Bar",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "outdoor_seating": "yes",
+        "website": "https://hygge-danish-bar.business.site/?utm_source=gmb&utm_medium=referral"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2876076,
+          41.3178698
+        ]
+      },
+      "id": "node/9190022341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9193439454",
+        "addr:housenumber": "84, 86, 88",
+        "addr:street": "Via Cavour",
+        "amenity": "cafe",
+        "check_date": "2022-07-12",
+        "cuisine": "coffee;breakfast",
+        "name": "Bar Cavour",
+        "outdoor_seating": "yes",
+        "phone": "+39 0883 534673"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2861673,
+          41.3191883
+        ]
+      },
+      "id": "node/9193439454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9202231729",
+        "amenity": "bar",
+        "name": "Vancouver"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2686778,
+          41.313569
+        ]
+      },
+      "id": "node/9202231729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9207440151",
+        "addr:housenumber": "228",
+        "addr:street": "Corso Giuseppe Garibaldi",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-11",
+        "cuisine": "ice_cream;coffee;breakfast",
+        "name": "Gelateria Bonelli",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2844212,
+          41.3205032
+        ]
+      },
+      "id": "node/9207440151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9666138320",
+        "addr:housenumber": "45",
+        "addr:street": "Via Imbriani",
+        "amenity": "bar",
+        "name": "Twine",
+        "opening_hours": "Tu-Sa 07:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2799955,
+          41.3181216
+        ]
+      },
+      "id": "node/9666138320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9672075190",
+        "addr:housenumber": "131",
+        "addr:street": "Corso Garibaldi",
+        "amenity": "bar",
+        "check_date": "2022-07-17",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "name": "Brooklyn café",
+        "opening_hours": "Mo-Su 07:00-22:00+",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+39 0883 171 4905",
+        "ref:vatin": "08583200723",
+        "smoking": "no",
+        "source": "survey",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2835132,
+          41.3200753
+        ]
+      },
+      "id": "node/9672075190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9676933832",
+        "addr:housenumber": "21",
+        "addr:street": "Corso Vittorio Emanuele",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-20",
+        "name": "Yogurtlandia",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2806381,
+          41.3194847
+        ]
+      },
+      "id": "node/9676933832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9676940829",
+        "addr:housenumber": "1",
+        "addr:street": "Corso Vittorio Emanuele",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-20",
+        "description": "Artisanal recipes from 1972",
+        "name": "Gelateria Sveva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2811033,
+          41.3193225
+        ]
+      },
+      "id": "node/9676940829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9676962879",
+        "addr:housenumber": "37",
+        "addr:street": "Corso Vittorio Emanuele",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-20",
+        "name": "Yogo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2803529,
+          41.3195778
+        ]
+      },
+      "id": "node/9676962879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9677773212",
+        "addr:housenumber": "1",
+        "addr:street": "Via Nazareth",
+        "name": "Dolcemente",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2817818,
+          41.3193865
+        ]
+      },
+      "id": "node/9677773212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9678003749",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date": "2022-07-10",
+        "name": "CAFFÈ 57",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2810015,
+          41.318559
+        ]
+      },
+      "id": "node/9678003749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9869986531",
+        "addr:housenumber": "81",
+        "addr:street": "Corso Vittorio Emanuele II",
+        "amenity": "bar",
+        "check_date": "2022-07-20",
+        "name": "Opera caffè"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2793565,
+          41.319981
+        ]
+      },
+      "id": "node/9869986531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9878704858",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-10",
+        "internet_access": "no",
+        "name": "L'avamposto",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2869794,
+          41.320436
+        ]
+      },
+      "id": "node/9878704858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9878704859",
+        "addr:housenumber": "34",
+        "addr:street": "Via Prospero Colonna",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-10",
+        "internet_access": "no",
+        "name": "Mont Blanc",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2862412,
+          41.320215
+        ]
+      },
+      "id": "node/9878704859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9880727142",
+        "addr:floor": "G",
+        "addr:housenumber": "1, 3, 5",
+        "addr:street": "Via Michele Morelli",
+        "amenity": "bar",
+        "check_date": "2022-07-11",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Boulevard Cafè",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2805018,
+          41.3041325
+        ]
+      },
+      "id": "node/9880727142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9883486195",
+        "addr:housenumber": "18",
+        "addr:street": "Via Cavour",
+        "check_date": "2022-07-12",
+        "email": "aldodiella@virgilio.it",
+        "internet_access": "no",
+        "name": "Genny",
+        "opening_hours": "Tu-Sa 06:30-13:30,15:30-21:00; Su 06:30-14:30,17:00-21:00",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+39 0883 348063; +39 320 847 6082; +39 320 883 6157",
+        "shop": "pastry",
+        "website": "https://www.pasticceriagenny.it/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2840491,
+          41.3195693
+        ]
+      },
+      "id": "node/9883486195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9885671000",
+        "amenity": "cafe",
+        "email": "daniele@pascucci.it",
+        "name": "Pascucci",
+        "phone": "+39 0541 978524",
+        "website": "http://www.pascucci.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.294261,
+          41.3185436
+        ]
+      },
+      "id": "node/9885671000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9899388011",
+        "addr:housenumber": "12",
+        "addr:street": "Via Mura San Cataldo",
+        "amenity": "bar",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Oz Bar",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2855765,
+          41.3213886
+        ]
+      },
+      "id": "node/9899388011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9899388012",
+        "addr:housenumber": "14",
+        "addr:street": "Via Mura San Cataldo",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes;various",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Jah Bar",
+        "opening_hours": "11:00-03:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2853978,
+          41.32139
+        ]
+      },
+      "id": "node/9899388012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9899388013",
+        "addr:housenumber": "28",
+        "addr:street": "Via Marino Bruno",
+        "amenity": "bar",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "La Distilleria",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2853517,
+          41.3211954
+        ]
+      },
+      "id": "node/9899388013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9899440615",
+        "addr:housenumber": "4",
+        "addr:street": "Via Mura San Cataldo",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Makai",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.286381,
+          41.3213334
+        ]
+      },
+      "id": "node/9899440615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9899496418",
+        "addr:housenumber": "57",
+        "addr:street": "Piazza Castello",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Samanà",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.286663,
+          41.3212012
+        ]
+      },
+      "id": "node/9899496418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9900202102",
+        "addr:housenumber": "14, 16, 18",
+        "addr:street": "Corso Vittorio Emanuele",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Caffè del Corso",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "source": "survey",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2816954,
+          41.3193793
+        ]
+      },
+      "id": "node/9900202102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9900202103",
+        "addr:housenumber": "20, 22",
+        "addr:street": "Corso Vittorio Emanuele",
+        "amenity": "cafe",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Cafè Eraclio",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2816518,
+          41.3193929
+        ]
+      },
+      "id": "node/9900202103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9900202105",
+        "addr:housenumber": "26",
+        "addr:street": "Corso Vittorio Emanuele",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Gelateria del Corso",
+        "opening_hours": "Mo-Fr 16:00-02:00; Sa 16:00-04:00",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2814877,
+          41.319455
+        ]
+      },
+      "id": "node/9900202105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9900238708",
+        "addr:housenumber": "46, 48",
+        "addr:street": "Corso Vittorio Emanuele",
+        "amenity": "bar",
+        "check_date": "2022-07-20",
+        "internet_access": "no",
+        "name": "Kofler",
+        "opening_hours": "06:00-13:00,15:00-21:30",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2809822,
+          41.3196361
+        ]
+      },
+      "id": "node/9900238708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9909366230",
+        "addr:housenumber": "41",
+        "addr:street": "Via Giuseppe de Nittis",
+        "amenity": "ice_cream",
+        "check_date": "2022-07-25",
+        "internet_access": "no",
+        "name": "Tre Galletti",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2796648,
+          41.3166774
+        ]
+      },
+      "id": "node/9909366230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9919618512",
+        "addr:housenumber": "54",
+        "addr:street": "Piazza Marina",
+        "amenity": "bar",
+        "check_date": "2022-07-29",
+        "internet_access": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2847949,
+          41.3223201
+        ]
+      },
+      "id": "node/9919618512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9919618513",
+        "addr:housenumber": "49",
+        "addr:street": "Piazza Marina",
+        "amenity": "bar",
+        "check_date": "2022-07-29",
+        "internet_access": "no",
+        "name": "La Piazzetta",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2848182,
+          41.3224684
+        ]
+      },
+      "id": "node/9919618513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9919658886",
+        "addr:housenumber": "31",
+        "addr:street": "Piazzetta del Duomo",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2022-07-29",
+        "internet_access": "no",
+        "name": "Limes cafè",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2868085,
+          41.3200321
+        ]
+      },
+      "id": "node/9919658886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9919658887",
+        "addr:housenumber": "20",
+        "addr:street": "Piazzetta del Duomo",
+        "amenity": "bar",
+        "check_date": "2022-07-29",
+        "internet_access": "no",
+        "name": "Sophie Cafè",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2869356,
+          41.3198088
+        ]
+      },
+      "id": "node/9919658887"
+    }
+  ]
+}
