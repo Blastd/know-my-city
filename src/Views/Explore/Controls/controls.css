@@ -97,6 +97,6 @@
 }
 
 .dialog-open{
-    max-height: 600px;
+    max-height: 50vh;
     bottom: 0%;
 }
