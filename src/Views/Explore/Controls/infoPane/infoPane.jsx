@@ -12,13 +12,15 @@ export default class InfoPane extends Component{
         return(
             <div className={"map-info-container" + " " +  (this.props.open?"dialog-open":"dialog-close")}>
                 <div className="menu-header">
-                    <h4>{this.props.data.name}</h4>
+                    <h4>{this.props.data.properties.name}</h4>
                     <button className="menu-close" onClick={this.props.closeFilterMenu}>
                         <MdClose size={20}/>
                     </button>
                 </div>
                 <div className="marker-info">
-
+                    <p style={{overflow: 'scroll', wordWrap: 'anywhere', width: '100%'}}>
+                        {JSON.stringify(this.props.data)}
+                    </p>
                 </div>
             </div>
         );

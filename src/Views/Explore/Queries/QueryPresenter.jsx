@@ -1,5 +1,5 @@
 import { Component, Fragment } from "react";
-import {Marker, Popup, GeoJSON} from 'react-leaflet';
+import {Marker, Popup, GeoJSON, LayersControl} from 'react-leaflet';
 import L from 'leaflet';
 import { iconMarker, generateIcon } from "../Controls/markerIcon";
 import queryIceCream    from './ice_cream_fallback.json';
@@ -45,11 +45,12 @@ export default class QueryPresenter extends Component{
     }
 
     bindData(feature, layer){
-        layer.on("click", ()=>{this.props.markerInteraction(feature.properties)})
+        layer.on("click", ()=>{this.props.markerInteraction(feature)})
         layer.options.icon = generateIcon(feature.properties);
         layer.options.fillColor= "#0066CC";
         layer.options.color = "#0066CC";
-        layer.options.className = "structureMarker"
+        layer.options.className = "structureMarker";
+        layer.options.autoPanOnFocus = true;
     }
 
 }

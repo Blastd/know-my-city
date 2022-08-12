@@ -77,7 +77,7 @@ export default class Explore extends React.Component{
     }
 
     featureInteract(feature){
-        this.setState({currentSelection: feature});
+        this.setState({currentSelection: feature, infoPaneOpen: true});
     }
 
 }
