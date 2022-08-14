@@ -6,10 +6,13 @@
     "explore-filters-menu-title": "Filters",
     "explore-filter-beach-resort": "Beach resorts",
     "explore-filter-monuments": "Monuments",
-    "explore-filter-hospitality": "Hospitality",
     "explore-filter-restaurant": "Restaurants",
     "explore-filter-cafe": "Cafés",
     "explore-filter-ice-cream": "Ice Cream",
     "explore-filter-bar": "Bars",
-    "explore-filter-pharmacy": "Pharmacies"
+    "explore-filter-pharmacy": "Pharmacies",
+    "explore-filter-bnb": "Bed & Breakfast",
+    "explore-filter-hotel": "Hotels",
+    "explore-filter-pizzeria": "Pizzeria",
+    "explore-filter-pub": "Pubs"
 }

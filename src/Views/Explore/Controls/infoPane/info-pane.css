@@ -10,3 +10,13 @@
     transition: 0.15s ease-in;
     display: grid;
 }
+
+.marker-info{
+
+}
+
+.marker-info>h4{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    color: #444;
+}

@@ -50,7 +50,15 @@ function iconType(feature){
 
         if(feature.amenity == "cafe") candidate = iconSet.cafe;
 
+        if(feature.amenity == "restaurant") candidate = iconSet.restaurant;
+
+        if(["pizza"].includes(feature.cuisine)) candidate = iconSet.restaurantPizza;
+
+        if((feature.cuisine == 'japanese' && feature["diet:pescetarian"] == "yes") || feature.cuisine == "sushi") candidate = iconSet.restaurantSushi;
+
         if(feature.shop == "pastry") candidate = iconSet.bakery;
+
+        if(feature.leisure == "beach_resort") candidate = iconSet.beach;
     }
     return candidate;
 }

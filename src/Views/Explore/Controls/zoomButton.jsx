@@ -6,7 +6,7 @@ import MapFilterButton from "./filterButton";
 export default function MapZoom(props) {
 
     const parentMap = useMap();
-
+    props.mapSetup(parentMap);
     var zoomIn = () =>{
         parentMap.zoomIn();
     };
