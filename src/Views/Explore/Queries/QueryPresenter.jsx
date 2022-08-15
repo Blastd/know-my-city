@@ -1,7 +1,6 @@
 import { Component, Fragment } from "react";
 import {Marker, Popup, GeoJSON, LayersControl} from 'react-leaflet';
 import L from 'leaflet';
-import { useMap } from "react-leaflet";
 import { iconMarker, generateIcon } from "../Controls/markerIcon";
 
 import queryBar                 from './bar';
@@ -22,8 +21,39 @@ import queryWater               from './water';
 export default class QueryPresenter extends Component{
     constructor(props){
         super(props);
-        this.state = {currentLayer: L.layerGroup()};
+        this.state = {
+            currentLayer: L.layerGroup(),
+            updatedList: {
+                bar:            queryBar,
+                beach:          queryBeachResort,
+                bnb:            queryBnB,
+                bus:            queryBusStop,
+                cafe:           queryCafe,
+                historic:       queryHistoric,
+                hotel:          queryHotel,
+                icecream:       queryIceCream,
+                pharmacy:       queryPharmacy,
+                pizzeria:       queryPizzeria,
+                pub:            queryPub,
+                restaurant:     queryRestaurant,
+                toilet:         queryToilet,
+                water:          queryWater
+            }
+        };
         this.bindData = this.bindData.bind(this);
+        this.updateList = this.updateList.bind(this);
+    }
+
+    updateList(){
+        if(this.props.load > 0)
+            Object.keys(this.state.updatedList).forEach((itemName)=>{
+                this.fetchData(itemName);
+            });
+    }
+
+    componentDidMount(){
+        console.log("Load once");
+        this.updateList();
     }
 
     componentDidUpdate(){
@@ -31,35 +61,33 @@ export default class QueryPresenter extends Component{
     }
 
     render(){
-
-        if (this.state.currentLayer != null)
-            this.state.currentLayer.clearLayers();
-
-        let queriesList = {
-            bar:            queryBar,
-            beach_resort:   queryBeachResort,
-            bnb:            queryBnB,
-            bus_stop:       queryBusStop,
-            cafe:           queryCafe,
-            historic:       queryHistoric,
-            hotel:          queryHotel,
-            icecream:       queryIceCream,
-            pharmacy:       queryPharmacy,
-            pizzeria:       queryPizzeria,
-            pub:            queryPub,
-            restaurant:     queryRestaurant,
-            toilet:         queryToilet,
-            water:          queryWater
-        };
-
+        if (this.state.currentLayer != null) this.state.currentLayer.clearLayers();
         return (<Fragment>
-                    {this.props.queries !==null && Object.keys(this.props.queries).map((itemName, index)=>{
-                        var features = queriesList[itemName];
+                    {this.state.updatedList != null && this.props.queries != null && Object.keys(this.props.queries).map((itemName, index)=>{
+                        var features = this.state.updatedList[itemName];
                         if(features != null)
-                            return (this.props.queries[itemName] == true)?<GeoJSON key={index} data={features} onEachFeature={this.bindData}/>:null;
-                        else return null;
+                            if(this.props.queries[itemName] == true){
+                                return <GeoJSON key={index} data={features} onEachFeature={this.bindData}/>;
+                            }
                     })}
                 </Fragment>);
+    }
+
+    fetchData(itemName){
+        console.log("fetchCount");
+        try{
+            fetch(`https://know-my-city-backend.herokuapp.com/getFeatures?type=${itemName}`)
+            .then((data)=>{
+                data.json().then((jsonData)=>{
+                    let newList = this.state.updatedList;
+                    newList[itemName] = jsonData;
+                    this.setState({updatedList: newList});
+                }).catch((err)=>{throw 'Could not parse json data'});
+            }).catch((err)=>{throw 'Could not get features';});
+        }catch(err){
+            console.error(`@${itemName}: ${err}`);
+            return null;
+        }
     }
 
     bindData(feature, layer){

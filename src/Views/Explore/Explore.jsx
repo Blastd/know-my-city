@@ -9,6 +9,8 @@ import "leaflet/dist/leaflet.css";
 import "./explore.css";
 import InfoPane from "./Controls/infoPane/infoPane";
 
+var reload = 0;
+
 export default class Explore extends React.Component{
     constructor(props){
         super(props);
@@ -58,6 +60,7 @@ export default class Explore extends React.Component{
     }
 
     render(){
+        reload++;
         let mapStyle = {
             height: 'calc(100vh - 15vh)',
             borderRadius: '20px 20px 0px 0px'
@@ -73,7 +76,7 @@ export default class Explore extends React.Component{
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
-                        <QueryPresenter markerInteraction={this.featureInteract} queries={this.state.query} map={this.state.map}/>
+                        <QueryPresenter markerInteraction={this.featureInteract} queries={this.state.query} map={this.state.map} load={reload}/>
                 </MapContainer>
                 <FilterMenu closeFilterMenu={this.closeFilterMenu} open={this.state.filterMenuOpen} translator={this.props.translator} trigger={this.filterUpdate}/>
                 {this.state.currentSelection !=null && <InfoPane closeFilterMenu={this.closeInfoPane} open={this.state.infoPaneOpen} data={this.state.currentSelection} translator={this.props.translator}/>}

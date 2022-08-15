@@ -28,7 +28,7 @@ export default class FilterMenu extends Component{
                             trigger={this.props.trigger}/>
                         <FilterButton backgroundColor="#EFD062"
                             text={this.props.translator.t("explore-filter-beach-resort")}
-                            propertyName={"beach_resort"}
+                            propertyName={"beach"}
                             trigger={this.props.trigger}/>
                         <FilterButton backgroundColor="#ef9662"
                             text={this.props.translator.t("explore-filter-bnb")}
@@ -74,7 +74,7 @@ export default class FilterMenu extends Component{
                                 <MdLocalDrink size={25}/>
                         </FilterButton>
                         <FilterButton backgroundColor="#DD7429"
-                            propertyName={"bus_stop"}
+                            propertyName={"bus"}
                             trigger={this.props.trigger}>
                                 <MdDirectionsBus size={20}/>
                         </FilterButton>
