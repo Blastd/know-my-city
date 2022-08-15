@@ -59,6 +59,8 @@ function iconType(feature){
         if(feature.shop == "pastry") candidate = iconSet.bakery;
 
         if(feature.leisure == "beach_resort") candidate = iconSet.beach;
+
+        if(feature.highway == "bus_stop") candidate = iconSet.bus;
     }
     return candidate;
 }

@@ -18,7 +18,9 @@ export default class InfoPane extends Component{
                     </button>
                 </div>
                 <div className="marker-info">
+                    {this.props.data.properties["addr:street"] != null && (
                         <h4>{`${this.props.data.properties["addr:street"]} ${this.props.data.properties["addr:housenumber"]}`}</h4>
+                    )}
                         <p style={{overflow: 'scroll', wordWrap: 'anywhere', width: '100%'}}>
                         {JSON.stringify(this.props.data)}
                     </p>
