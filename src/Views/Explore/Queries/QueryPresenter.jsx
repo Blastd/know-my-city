@@ -101,11 +101,11 @@ export default class QueryPresenter extends Component{
     }
 
     markerStylize(feature, layer){
-        layer.on("click", ()=>{this.props.markerInteraction(feature)})
+        layer.on("click", ()=>{this.props.markerInteraction(feature); console.log(feature.properties)})
         layer.options.icon = generateIcon(feature.properties);
         layer.options.fillColor= "#0066CC";
         layer.options.color = "#0066CC";
-        layer.options.className = "structureMarker";
+        layer.options.className = "map-marker-icon";
         layer.options.autoPanOnFocus = true;
     }
 

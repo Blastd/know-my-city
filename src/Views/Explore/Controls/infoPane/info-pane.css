@@ -11,29 +11,38 @@
     display: grid;
 }
 
-.opening-container{
+.side-data{
+    margin: 4mm;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 3mm;
+}
+
+.side-container{
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    align-content: center;
+    gap: 2mm;
 }
 
-.opening-icon{
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 1;
+.side-icon{
     aspect-ratio: 1;
-    width: 60%;
+    width: 10vw;
     height: auto;
+    border-radius: 100mm;
+    padding: 2mm;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #0005;
 }
 
-.opening-status{
-    grid-row-start: 2;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    font-family: 'Poppins', serif;
-    text-transform: uppercase;
+.side-status{
+    font-family: 'Poppins', sans-serif;
+    word-wrap: normal;
+    max-width: 30vw;
 }
 
 .place-address{

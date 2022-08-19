@@ -17,5 +17,16 @@
     "explore-filter-pizzeria": "Pizzeria",
     "explore-filter-pub": "Pubs",
     "place-open": "Open",
-    "place-closed": "Closed"
+    "place-closed": "Closed",
+    "place-accept-card": "Credit Cards accepted",
+    "place-not-accept-card": "Credit Cards not accepted",
+    "place-out-seating": "Outdoor seating",
+    "place-it-seating": "Indoor seating",
+    "place-both-seating": "Indoor and Outdoor seating",
+    "defensive_works-ravelin": "Ravelin",
+    "historic-archaeological_site": "Archaeological site",
+    "historic-memorial": "Memorial",
+    "tourism-artwork": "Artwork",
+    "amenity-toilets": "Toilet",
+    "amenity-drinking_water": "Drinking water"
 }
