@@ -13,6 +13,7 @@ import bankJP                   from './svgs/bank-JP.svg';
 import bank                     from './svgs/bank.svg';
 import barrier                  from './svgs/barrier.svg';
 import bar                      from './svgs/bar.svg';
+import barPub                   from './svgs/barPub.svg';
 import baseball                 from './svgs/baseball.svg';
 import basketball               from './svgs/basketball.svg';
 import bbq                      from './svgs/bbq.svg';
@@ -107,6 +108,8 @@ import library                  from './svgs/library.svg';
 import lighthouseJP             from './svgs/lighthouse-JP.svg';
 import lighthouse               from './svgs/lighthouse.svg';
 import lodging                  from './svgs/lodging.svg';
+import lodgingHotel             from './svgs/lodging-hotel.svg';
+import lodgingBnb             from './svgs/lodging-bnb.svg';
 import logging                  from './svgs/logging.svg';
 import markerStroked            from './svgs/marker-stroked.svg';
 import marker                   from './svgs/marker.svg';
@@ -219,6 +222,7 @@ export{
     bank,
     barrier,
     bar,
+    barPub,
     baseball,
     basketball,
     bbq,
@@ -313,6 +317,8 @@ export{
     lighthouseJP,
     lighthouse,
     lodging,
+    lodgingBnb,
+    lodgingHotel,
     logging,
     markerStroked,
     marker,

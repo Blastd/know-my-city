@@ -1,4 +1,5 @@
 {
+    "lang": "it",
     "appName": "Know my city",
     "header-nav-explore": "Esplora",
     "header-nav-activities": "Attività",
@@ -14,5 +15,7 @@
     "explore-filter-bnb": "Bed & Breakfast",
     "explore-filter-hotel": "Hotel",
     "explore-filter-pizzeria": "Pizzerie",
-    "explore-filter-pub": "Pub"
+    "explore-filter-pub": "Pub",
+    "place-open": "Aperto",
+    "place-closed": "Chiuso"
 }

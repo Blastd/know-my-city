@@ -34,7 +34,7 @@ export default class FilterMenu extends Component{
                             text={this.props.translator.t("explore-filter-bnb")}
                             propertyName={"bnb"}
                             trigger={this.props.trigger}/>
-                        <FilterButton backgroundColor="#E090ED"
+                        <FilterButton backgroundColor="#aaa"
                             text={this.props.translator.t("explore-filter-monuments")}
                             propertyName={"historic"}
                             trigger={this.props.trigger}/>
@@ -67,24 +67,23 @@ export default class FilterMenu extends Component{
                             propertyName={"pharmacy"}
                             trigger={this.props.trigger}/>
                     </div>
-                    <div className="side-filters-container">
-                        <FilterButton backgroundColor="#0FD5E1"
-                            propertyName={"water"}
-                            trigger={this.props.trigger}>
-                                <MdLocalDrink size={25}/>
-                        </FilterButton>
-                        <FilterButton backgroundColor="#DD7429"
-                            propertyName={"bus"}
-                            trigger={this.props.trigger}>
-                                <MdDirectionsBus size={20}/>
-                        </FilterButton>
-                        <FilterButton backgroundColor="#3552B7"
-                            propertyName={"toilet"}
-                            trigger={this.props.trigger}>
-                                <MdWc size={20}/>
-                        </FilterButton>
-                    </div>
-
+                    <div className="bottom-filters-container">
+                            <FilterButton backgroundColor="#0FD5E1"
+                                propertyName={"water"}
+                                trigger={this.props.trigger}>
+                                    <MdLocalDrink size={25}/>
+                            </FilterButton>
+                            <FilterButton backgroundColor="#DD7429"
+                                propertyName={"bus"}
+                                trigger={this.props.trigger}>
+                                    <MdDirectionsBus size={20}/>
+                            </FilterButton>
+                            <FilterButton backgroundColor="#3552B7"
+                                propertyName={"toilet"}
+                                trigger={this.props.trigger}>
+                                    <MdWc size={20}/>
+                            </FilterButton>
+                        </div>
                 </div>
                 
             </div>

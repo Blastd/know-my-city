@@ -42,7 +42,12 @@ function iconType(feature){
         if(feature.historic == "memorial") candidate = iconSet.cemetery;
         if(feature.historic == "cannon" || feature.historic == "monument") candidate = iconSet.monument;
         //Hotels
-        if(feature.guest_house != null || ["guest_house", "hotel"].includes(feature.tourism)) candidate = iconSet.lodging;
+        if(feature.guest_house != null || ["guest_house", "hotel"].includes(feature.tourism)){
+            if(feature.tourism == "guest_house")
+                candidate = iconSet.lodgingBnb;
+            else
+                candidate = iconSet.lodgingHotel;
+        } 
         //Ice cream
         if(feature.amenity == "ice_cream") candidate = iconSet.iceCream;
         //Bar (night)
@@ -52,6 +57,8 @@ function iconType(feature){
 
         if(feature.amenity == "restaurant") candidate = iconSet.restaurant;
 
+        if(feature.amenity == "pub") candidate = iconSet.barPub;
+
         if(["pizza"].includes(feature.cuisine)) candidate = iconSet.restaurantPizza;
 
         if((feature.cuisine == 'japanese' && feature["diet:pescetarian"] == "yes") || feature.cuisine == "sushi") candidate = iconSet.restaurantSushi;
@@ -60,7 +67,13 @@ function iconType(feature){
 
         if(feature.leisure == "beach_resort") candidate = iconSet.beach;
 
+        if(feature.amenity == "pharmacy") candidate = iconSet.pharmacy;
+
         if(feature.highway == "bus_stop") candidate = iconSet.bus;
+
+        if(feature.amenity == "drinking_water") candidate = iconSet.drinkingWater;
+
+        if(feature.amenity == "toilets") candidate = iconSet.toilet;
     }
     return candidate;
 }

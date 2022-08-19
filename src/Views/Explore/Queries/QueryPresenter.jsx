@@ -52,7 +52,6 @@ export default class QueryPresenter extends Component{
     }
 
     componentDidMount(){
-        console.log("Load once");
         this.updateList();
     }
 
@@ -74,7 +73,6 @@ export default class QueryPresenter extends Component{
     }
 
     fetchData(itemName){
-        console.log("fetchCount");
         try{
             fetch(`https://know-my-city-backend.herokuapp.com/getFeatures?type=${itemName}`)
             .then((data)=>{
