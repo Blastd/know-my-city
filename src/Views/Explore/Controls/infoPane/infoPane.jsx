@@ -1,11 +1,8 @@
 import { Component } from "react";
-import { MdBusAlert, MdClose, MdDirectionsBus, MdLocalDrink, MdTram, MdWc, MdYoutubeSearchedFor } from "react-icons/md";
-import { MdWaterDrop } from "react-icons/md";
-import OpeningWidget from "./openingWidget";
-import CreditCardWidget from "./creditCardWidget";
+import { MdClose } from "react-icons/md";
 import { getName } from "./libs/stringUtils";
 import './info-pane.css';
-import SeatingWidget from "./seatWidget";
+import { displayWidgets } from "./libs/widgetUtils";
 
 export default class InfoPane extends Component{
     constructor(props){
@@ -39,11 +36,7 @@ export default class InfoPane extends Component{
                 </div>
                 <div className="marker-info">
                     <div className="side-data">
-                        {this.props.data.properties.opening_hours !=null && (
-                            <OpeningWidget openingStatus={this.props.data.properties.opening_hours} translator={this.props.translator}/>
-                        )}
-                        <CreditCardWidget translator={this.props.translator} data={this.props.data.properties}/>    
-                        <SeatingWidget translator={this.props.translator} data={this.props.data.properties}/>
+                        {displayWidgets(this.props.data.properties, this.props.translator)}
                     </div>
                     {/* <p style={{overflow: 'scroll', wordWrap: 'anywhere', width: '100%'}}>
                         {JSON.stringify(this.props.data)}

@@ -19,7 +19,7 @@ export default class FilterButton extends Component{
 
     render(){
         return (
-            <button className={"filter-button " + (this.state.enabled ? "filter-enabled" : "")} style={{backgroundColor: this.state.enabled ? this.props.backgroundColor : "#444"}} onClick={this.toggle}>
+            <button className={"filter-button " + (this.state.enabled ? "filter-enabled" : "")} onClick={this.toggle}>
                 {this.props.text}
                 {this.props.children}
             </button>

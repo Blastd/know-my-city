@@ -67,14 +67,14 @@ export default class Explore extends React.Component{
         };
         return (
             <div className="map-container">
-                <MapContainer style={mapStyle} className="markercluster-map" crs={CRS.EPSG3857} center={[41.31921, 16.28153]} zoom={19} maxZoom={22} scrollWheelZoom={true} zoomControl={false}>
+                <MapContainer style={mapStyle} className="markercluster-map" crs={CRS.EPSG3857} center={[41.31921, 16.28153]} zoom={20} maxZoom={20} scrollWheelZoom={true} zoomControl={false}>
                     <MapZoom menuOpenToggle={this.filterMenuToggle} mapSetup={this.setupMap}/>
                     <TileLayer
                         noWrap={false}
-                        maxNativeZoom={19}
-                        maxZoom={22}
+                        maxNativeZoom={20}
+                        maxZoom={20}
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png"
                         />
                         <QueryPresenter markerInteraction={this.featureInteract} queries={this.state.query} map={this.state.map} load={reload}/>
                 </MapContainer>

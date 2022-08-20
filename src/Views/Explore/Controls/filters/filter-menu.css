@@ -63,15 +63,16 @@
 
 .filter-enabled{
     animation: filter-enable 250ms ease-in-out 0ms 1;
+    background-color: #048ba8 !important;
 }
 
 .filter-button:not(.filter-enabled){
     animation: filter-disable 250ms ease-in-out 0ms 1;
-    color: #fff
+    background-color: #2e4057;
 }
 
 .filter-button:not(.filter-enabled)>svg{
-    color: #fff
+    color: #fff;
 }
 
 
@@ -86,6 +87,7 @@
     white-space: nowrap;
     border: 5px solid #ffffff80;
     transition: 0.10s ease-in;
+    color: #fff
 }
 
 @keyframes filter-enable {
