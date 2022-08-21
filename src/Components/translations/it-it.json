@@ -4,6 +4,8 @@
     "header-nav-explore": "Esplora",
     "header-nav-activities": "Attività",
     "header-nav-attractions": "Attrazioni",
+    "sign-fetch-loading": "Caricamento in corso...",
+    "sign-fetch-error": "C'é stato un errore, prova a ricaricare la pagina.",
     "explore-filters-menu-title": "Filtri",
     "explore-filter-beach-resort": "Spiagge",
     "explore-filter-monuments": "Monumenti",

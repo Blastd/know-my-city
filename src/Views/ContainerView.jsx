@@ -11,6 +11,7 @@ import Translator from "../Components/Translator";
 
 import Index from "./Index";
 import Explore from "./Explore/Explore";
+import Sign from "./Sign/Sign";
 
 export default class ContainerView extends React.Component{
     constructor(props){
@@ -41,6 +42,7 @@ export default class ContainerView extends React.Component{
                 <Routes>
                     <Route exact path="/" element={<Index translator={this.state.translator}/>}/>
                     <Route exact path="/explore" element={<Explore translator={this.state.translator}/>} />
+                    <Route exact path="/sign" element={<Sign translator={this.state.translator}/>} />
                 </Routes>
             </Router>
         );

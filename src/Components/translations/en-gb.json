@@ -4,6 +4,8 @@
     "header-nav-explore": "Explore",
     "header-nav-activities": "Activities",
     "header-nav-attractions": "Attractions",
+    "sign-fetch-loading": "Loading...",
+    "sign-fetch-error": "There was an error, try reloading the page.",
     "explore-filters-menu-title": "Filters",
     "explore-filter-beach-resort": "Beach resorts",
     "explore-filter-monuments": "Monuments",
