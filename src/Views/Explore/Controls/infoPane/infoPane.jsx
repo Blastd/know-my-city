@@ -2,7 +2,7 @@ import { Component } from "react";
 import { MdClose } from "react-icons/md";
 import { getName } from "./libs/stringUtils";
 import './info-pane.css';
-import { displayWidgets } from "./libs/widgetUtils";
+import { displayWidgets, displayContactInfo } from "./libs/widgetUtils";
 
 export default class InfoPane extends Component{
     constructor(props){
@@ -31,12 +31,15 @@ export default class InfoPane extends Component{
                         <MdClose size={20}/>
                     </button>
                     {this.props.data.properties["addr:street"] != null && (
-                        <p className="place-address">{`${this.props.data.properties["addr:street"]} ${this.props.data.properties["addr:housenumber"]}`}</p>
+                        <p className="place-address">{`${this.props.data.properties["addr:street"].replace(`${undefined}`, "")} ${this.props.data.properties["addr:housenumber"]}`.replace(`${undefined}`, "")}</p>
                     )}
                 </div>
                 <div className="marker-info">
                     <div className="side-data">
                         {displayWidgets(this.props.data.properties, this.props.translator)}
+                    </div>
+                    <div className="contact-info">
+                        {displayContactInfo(this.props.data.properties, this.props.translator)}
                     </div>
                     {/* <p style={{overflow: 'scroll', wordWrap: 'anywhere', width: '100%'}}>
                         {JSON.stringify(this.props.data)}
