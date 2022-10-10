@@ -42,7 +42,7 @@ export default class Sign extends Component{
         const signParam = new URLSearchParams(window.location.search);
         //Check for invalid params
         if(!signParam.has("name")) window.location.pathname = "/";
-        fetch(`https://know-my-city-backend.herokuapp.com/getSign?name=${signParam.get('name')}`)
+        fetch(`https://know-my-city-backend.fly.dev/getSign?name=${signParam.get('name')}`)
         .then(
         (response)=>{
             if(response.status == 200){

@@ -74,7 +74,7 @@ export default class QueryPresenter extends Component{
 
     fetchData(itemName){
         try{
-            fetch(`https://know-my-city-backend.herokuapp.com/getFeatures?type=${itemName}`)
+            fetch(`https://know-my-city-backend.fly.dev/getFeatures?type=${itemName}`)
             .then((data)=>{
                 data.json().then((jsonData)=>{
                     let newList = this.state.updatedList;
